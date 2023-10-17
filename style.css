@@ -1,0 +1,37 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(81, 81, 93);
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    display: inline-block;
+    background-color: rgb(253, 184, 105);
+    padding: 50px 70px;
+}
+
+input[type="checkbox"]:not(:first-child) {
+    margin-left: 20px;
+}
+
+input[type="checkbox"]{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+label{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    color: brown;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
